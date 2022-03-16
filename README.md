@@ -1,1 +1,3 @@
 # appRecipe-Vue
+
+> npm install
