@@ -42,9 +42,6 @@ const actions = {
           return Promise.reject(data);
         }
       })
-      .catch((error) => {
-        console.log("server probably not up");
-      });
   },
   deleteRecipe({ commit }, id) {
     deleteRecipe(id).then(async (response) => {
